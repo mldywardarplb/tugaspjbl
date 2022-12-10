@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Spectral:wght@300;400&display=swap');
+*{
+    margin:0; padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+
+section{
+    padding:2rem 9%;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background: #bd9e8a;
+    color:#fff;
+    padding:.9rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+
+.btn:hover{
+    background:#553421;
+}
+
+header{
+    position: fixed;
+    top:0; left:0; right:0;
+    background: #553421;
+    padding:2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+header .logo{
+    font-family: 'Spectral', serif;
+    font-size: 4rem;
+    color:#e5cec0;
+    font-weight: bolder;
+    text-decoration: double;
+}
+
+header .navbar a{
+    font-size: 2rem;
+    padding:0 1.5rem;
+    color:#e5cec0;
+    font-family: 'Spectral', serif;
+    font-weight: bold;
+}
+
+header .navbar a:hover{
+    color: #fff;
+}
+
+header #toggler{
+    display: none;
+}
+
+header .fa-bars{
+    font-size: 3rem;
+    color:#e5cec0;
+    border-radius: .5rem;
+    padding:.5rem 1.5rem;
+    cursor: pointer;
+    border:.1rem solid rgba(0,0,0,.3);
+    display: none;
+}
+
+.header .gethuk{
+    height: 350px;
+    width: 350px;
+    margin-top: 180px;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+
+.header .judul{
+    font-size: 10rem;
+    color: black;
+    margin-left: 500px;
+    margin-top: -300px;
+}
+
+.resep-bahan{
+    height: 385px;
+    width: 1200px;
+    background-color: #e5cec0;
+    border-radius: 5px;
+    margin-top: 180px;
+    margin-left: 100px;
+}
+
+.resep-bahan .bahan{
+    font-size: 3rem;
+    margin-top: 50px;
+    font-weight: bold;
+    margin-left: 100px;
+    color:black;
+}
+
+.isi{
+    font-size: 2rem;
+    color: black;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.resep-resep{
+    height: 400px;
+    width: 1200px;
+    background-color: #e5cec0;
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.resep-resep .judul-resep{
+    font-size: 3rem;
+    margin-top: 100px;
+    font-weight: bold;
+    margin-left: 100px;
+    color:black;
+}
+
+.resep{
+    font-size: 2rem;
+    color: black;
+    margin-top: px;
+    margin-left: 100px;
+}  
+
+.footer{
+    height: 145px;
+    width: 2000px;
+    margin-left: -10px;
+    margin-top: 50px;
+    background-color: #553421;
+}

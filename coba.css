@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Spectral:wght@300;400&display=swap');
+*{
+    margin:0; padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+
+section{
+    padding:2rem 9%;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background: #bd9e8a;
+    color:#fff;
+    padding:.9rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+
+.btn:hover{
+    background:#553421;
+}
+
+header{
+    position: fixed;
+    top:0; left:0; right:0;
+    background: #553421;
+    padding:2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+header .logo{
+    font-family: 'Spectral', serif;
+    font-size: 4rem;
+    color:#e5cec0;
+    font-weight: bolder;
+    text-decoration: double;
+}
+
+header .navbar a{
+    font-size: 2rem;
+    padding:0 1.5rem;
+    color:#e5cec0;
+    font-family: 'Spectral', serif;
+    font-weight: bold;
+}
+
+header .navbar a:hover{
+    color: #fff;
+}
+
+header #toggler{
+    display: none;
+}
+
+header .fa-bars{
+    font-size: 3rem;
+    color:#e5cec0;
+    border-radius: .5rem;
+    padding:.5rem 1.5rem;
+    cursor: pointer;
+    border:.1rem solid rgba(0,0,0,.3);
+    display: none;
+}
+
+/*home*/
+
+.home{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background:url('image/background2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.home .content{
+    max-width: 50rem;
+}
+
+.home .content h3{
+    font-size: 6rem;
+    color:#fff;
+}
+
+.home .content span{
+    font-size: 3.5rem;
+    color:#fff;
+    padding:1rem 0;
+    line-height: 1.5;
+}
+
+.home .content p{
+    font-size: 1.5rem;
+    color:#fff;
+    padding:1rem 0;
+    line-height: 1.5;
+}
+
+/*body*/
+
+.heading{
+    color: black;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 4rem;
+    font-family: 'Open Sans', sans-serif;
+} 
+
+.menu .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:1.5rem;
+}
+
+.menu .box-container .box{
+    margin-top: 50px;
+    padding:3rem 2rem;
+    background: #e5cec0;
+    outline: var(--outline);
+    outline-offset: -1rem;
+    text-align: center;
+    box-shadow: var(--box-shadow);
+    border-radius: 10px;
+}
+
+.menu .box-container .box:hover{
+    outline: var(--outline-hover);
+    outline-offset: 0rem;
+}
+
+.menu .box-container .botton{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background: #bd9e8a;
+    color:#fff;
+    padding:.9rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+
+.menu .box-container .botton:hover{
+    background: #553421;
+}
+
+.menu .box-container .picture{
+    width: 150px;
+    height: 100px;
+}
+
+
+.menu .box-container .box img{
+    margin:1rem 0;
+    height: 15rem;
+}
+
+.menu .box-container .box h3{
+    font-size: 2.5rem;
+    line-height: 1.8;
+    color:var(--black);
+}
+
+/*footer*/
+
+.footer{
+    height: 145px;
+    width: 1550px;
+    background-color: #553421;
+    margin-left: -10px;
+    margin-top: 100px;
+}
+
+.footer .text-footer{
+    font-size: 3rem;
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 600px;
+}
